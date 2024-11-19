@@ -1,0 +1,12 @@
+<h1>rick and morty</h1>
+<div>
+  <ul *ngFor="let item of data">
+    <img src="{{item.image}}">
+    <li>
+      <p>Name: {{item.name}}</p>
+      <p>Gender: {{item.gender}}</p>
+      <p>Species: {{item.species}}</p>
+      <p>Origin: {{item.origin.name}}</p>
+    </li>
+  </ul>
+</div>

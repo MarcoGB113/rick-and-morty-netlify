@@ -1,0 +1,10 @@
+img{
+  border-radius: 100%;
+  width: 100px;
+}
+div{
+  columns: 3;
+}
+h1{
+  align-content: center;
+}
